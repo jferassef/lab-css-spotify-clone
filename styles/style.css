@@ -7,6 +7,154 @@ White: #FFF
 
 */
 
-div {
-  border: 1px solid #17212e;
+* {
+  margin: 0;
+  padding: 0;
 }
+header > div {
+  background-color: #FFF;
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between; 
+  
+}
+
+.brand {
+  width: 150px; 
+  margin-top: 20px;
+  margin-left: 20px; 
+  margin-bottom: 10px;
+}
+
+.container{
+  height: 600px;
+  position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.container img{
+  height: 900px;
+
+}
+
+.containerhead {
+    position: absolute;
+    top: 10px;
+    left: 20%;
+    color: #FFF;
+    font-size: 60px;
+}
+
+.containertxt{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #FFF;
+}
+
+
+div h1 {
+  padding: 150px ;
+}
+
+.inlinesec{
+  background-color: #FFF;
+  height: 400px;
+} 
+.inlinesec h4{
+  color: #00B172;
+  font-size: x-large;
+}
+.inlinesec h2{
+  margin-left: 40%;
+  margin-top: 5%;
+  font-size:xx-large;
+  text-decoration: underline;
+  text-decoration-color: #00B172;
+}
+
+.inlinecontainer{
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.inlinesec img{
+  width: 120px;
+  margin-left: 25px;
+}
+
+.million , .HDmusic , .stream {
+  justify-content: center; 
+  width: 200px;
+}
+
+.bottom{
+  height: 800px;
+  background-color: #00B172;
+}
+
+.bottom h2{
+  text-align:left;
+  margin-left: 5%;
+  padding-top: 5%;
+  color: #FFF;
+  font-size: 30px;
+  text-decoration: underline;
+  text-decoration-color: #FFF;
+
+}
+
+.iconw{
+   width: 150px;
+}
+
+.spotify{
+  height: 600px;
+  margin-right: 100px;
+  margin-top: 10%;
+  
+}
+
+.texts{
+  color:#FFF;
+  line-height: 25px;
+  font-size: 20px;
+  margin-left: 5%;
+  margin-top: 10%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  column-gap: 20%;
+  
+}
+
+.images{
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  column-gap: 150px;
+  }
+
+.alldiv{
+  display:flex ;
+  text-align: center;
+  justify-content: space-around;
+}
+
+
+
